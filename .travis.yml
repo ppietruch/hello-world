@@ -1,6 +1,6 @@
 language: java
 sudo: false
-script: mvn clean install
+script: chmod +x mvnw && mvn clean install
 
 jdk:
   - oraclejdk8
